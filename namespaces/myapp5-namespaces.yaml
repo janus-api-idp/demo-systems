@@ -1,0 +1,32 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: myapp5-prod
+  labels:
+    app : myapp5
+    team: group:default/janus-authors
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: myapp5-qa
+  labels:
+    app : myapp5
+    team: group:default/janus-authors
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: myapp5-dev
+  labels:
+    app : myapp5
+    team: group:default/janus-authors
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: myapp5-build
+  labels:
+    app : myapp5
+    team: group:default/janus-authors
