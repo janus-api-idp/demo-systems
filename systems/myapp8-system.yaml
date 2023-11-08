@@ -1,7 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: myapp8
-  description: an application
-spec:
-  owner: group:default/janus-authors
