@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/janus-api-idp/integration-system-gitops.git
-    path: /
+    path: .
     directory:
       include: "*/*.yaml"
   destination:
