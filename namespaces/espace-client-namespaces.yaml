@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: espace-client-prod
+  labels:
+    app : espace-client
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: espace-client-qa
+  labels:
+    app : espace-client
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: espace-client-dev
+  labels:
+    app : espace-client
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: espace-client-build
+  labels:
+    app : espace-client
