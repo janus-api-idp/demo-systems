@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: weather
+  description: stuff about the weather
+spec:
+  owner: group:default/backstage-admins
