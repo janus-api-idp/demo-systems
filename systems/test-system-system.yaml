@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: test-system
+  description: testing system golden path
+spec:
+  owner: group:default/backstage-admins
